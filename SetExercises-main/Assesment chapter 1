@@ -1,0 +1,206 @@
+SIMPLE HTML
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Simple HTML Doc</title>
+    <link rel="stylesheet" href="StyleSheet.css" />
+</head>
+<body>
+    <!-- <h> tags are used to define HTML headings. -->
+    <h1>This is heading 1</h1> <!-- <h1> defines the most important heading. -->
+    <p>This is some text in a paragrapth.</p> <!-- The <p> tag defines a paragraph. -->
+
+    <h2>This is heading 2</h2>
+    <p>Christian Calda </p>
+
+    <h3>This is heading 3</h3>
+    <p>Christian Calda</p>
+
+    <h4>This is heading 4</h4>
+    <p>Christian Calda</p>
+
+    <h5>This is heading 5</h5>
+    <p>Christian Calda</p>
+
+    <h6>This is heading 6</h6> <!-- <h6> defines the least important heading. -->
+    <p>Christian Calda</p>
+</body>
+</html>
+CSS
+
+html {
+    text: 18px;
+    font-family: Arial, Helvetica, sanz-serif;
+    colour: #e2e2e2;
+    padding: 5% 5%;
+}
+
+<br >
+body {
+    background-color;
+    #29283d:
+}
+
+h1 {
+    font-size: 3rem;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    text-font-size: 2rem;
+    line-height: 1.3rem;
+    font-colour: #ffea7d;
+}
+
+h3 {
+    size: 1.5rem;
+    line-height: 1.3rem;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+blockquote {
+    l ine-height: 1.5rem;
+}
+
+.link {
+    colour: 0887f2;
+}
+
+.headingSpacer {
+    margin-top: 3rem;
+}
+
+#author {
+    font-style: italic;
+    text-align: center;
+}
+
+REPLACE ME
+
+<!DOCTYPE html>
+<html lang="en" style="background: #eeeeee">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Replace Me</title>
+    <link rel="stylesheet" href="StyleSheet.css" />
+</head>
+
+<body>
+    <h1>
+        Remove all of the Inline CSS
+    </h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum.
+    </p>
+    <p id="para4">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+        incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+        cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum.
+    </p>
+
+</body>
+</html>
+
+CSS
+
+html {
+    text: 18px;
+    font-family: Arial, Helvetica, sanz-serif;
+    colour: #e2e2e2;
+    padding: 5% 5%;
+}
+
+<br >
+body {
+    background-color;
+    #29283d:
+}
+
+h1 {
+    font-size: 3rem;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    text-font-size: 2rem;
+    line-height: 1.3rem;
+    font-colour: #ffea7d;
+}
+
+h3 {
+    size: 1.5rem;
+    line-height: 1.3rem;
+}
+
+p {
+    line-height: 1.5rem;
+}
+
+blockquote {
+    l ine-height: 1.5rem;
+}
+
+.link {
+    colour: 0887f2;
+}
+
+.headingSpacer {
+    margin-top: 3rem;
+}
+
+#author {
+    font-style: italic;
+    text-align: center;
+}
+
+
