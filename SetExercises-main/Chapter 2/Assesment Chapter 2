@@ -1,0 +1,286 @@
+One page Website
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>One Page Website</title>
+    <link rel="stylesheet" href="StyleSheet.css" />
+    <div class=“menu">
+        <a class="active" href="#Home">Home</a>
+        <a href="#contact">
+            Contact Us/a>
+            <a href="#about">About Us</a>
+    </div>
+
+</head>
+<h1>
+    GOD OF WAR(VideoGame)
+</h1>
+<p>
+    Key Information: What is the lore of God of War?
+    In God of War, players control Kratos, a Spartan warrior who is sent by the Greek gods to kill Ares, the god of war. As the story progresses, Kratos is revealed to be Ares' former servant, who had been tricked into killing his own family and is haunted by terrible nightmares.
+</p>
+<h2>
+    GOD OF WAR PLOT
+    </h2>
+<P>
+    In God of War, players control Kratos, a Spartan warrior who is sent by the Greek gods to kill Ares, the god of war. As the story progresses, Kratos is revealed to be Ares' former servant, who had been tricked into killing his own family and is haunted by terrible nightmares.
+</P>
+<h3>
+    GOD OF WAR CAST
+</h3>
+<p>
+    Kratos – Christopher Judge. ...
+    Atreus – Sunny Suljic. ...
+    The Stranger – Jeremy Davies. ...
+    The Witch – Carole Ruggier. ...
+    Brok – Robert Craighead. ...
+    Sindri – Adam Harrington. ...
+    Mimir – Alastair Duncan.
+</p>
+<body>
+    <a href="htmlpage1.html"><h1> LINK TO THE GAME </h1></a>
+
+</body>
+</html>
+Second Page 
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>LINK</title>
+</head>
+<h1>
+    LINK TO THE GAME: https://store.steampowered.com/agecheck/app/1593500/
+</h1>
+<body>
+
+</body>
+</html>
+css
+.menu a {
+        float: right;
+        color: white;
+        text-align: center;
+        padding: 15px 17px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+        
+        .menu a:hover {
+            background-color: antiquewhite;
+            color: black;
+        }
+        
+        .menu a.active {
+            background-color: darkcyan;
+            color: white;
+        }
+        body{
+            background-color:rosybrown;
+            text-align:center;
+        }
+        p{
+            color:black;
+        }
+        Replace Me Advanced
+        <html lang="en" style="background: #eeeeee">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Replace Me</title>
+    <link rel="stylesheet" href="StyleSheet.css" />
+</head>
+<body>
+    <h1>
+        Remove all of the Inline CSS
+    </h1>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum.
+    </p>
+    <h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum.
+    </p>
+      </h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum.
+    </p>
+    <h3>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum.
+    </p>
+        </h3>
+    <h4>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+        anim id est laborum.
+        </h3>
+    </p>
+</body>
+</html>
+cssh1 {
+    style ="font-size: 35px; 
+        color:#ff0000; 
+        text-align: center;
+        font-family:Arial, Helvetica, sans-serif;
+        text-decoration: underline;
+}
+h2{
+    font-size:(18px);
+    color:#111111;
+    font-family:Georgia,'Times New Roman', Times, serif;
+}
+h3{
+    font-size:(18px);
+    color:#111111;
+    font-family:Georgia,'Times New Roman', Times, serif;
+}
+h4{
+    font-size:(18px);
+    color:111111;
+    font-family:Georgia.'Times New Roman', Times, serif;
+
+}
+Multi-page Website
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>One Page Website</title>
+    <link rel="stylesheet" href="StyleSheet.css" />
+    <div class=“menu">
+        <a class="active" href="#Home">Home</a>
+        <a href="#contact">
+            Contact Us/a>
+            <a href="#about">About Us</a>
+    </div>
+
+</head>
+<h1>
+    GOD OF WAR(VideoGame)
+</h1>
+<p>
+    Key Information: What is the lore of God of War?
+    In God of War, players control Kratos, a Spartan warrior who is sent by the Greek gods to kill Ares, the god of war. As the story progresses, Kratos is revealed to be Ares' former servant, who had been tricked into killing his own family and is haunted by terrible nightmares.
+</p>
+<h2>
+    GOD OF WAR PLOT
+    </h2>
+<P>
+    In God of War, players control Kratos, a Spartan warrior who is sent by the Greek gods to kill Ares, the god of war. As the story progresses, Kratos is revealed to be Ares' former servant, who had been tricked into killing his own family and is haunted by terrible nightmares.
+</P>
+<h3>
+    GOD OF WAR CAST
+</h3>
+<p>
+    Kratos – Christopher Judge. ...
+    Atreus – Sunny Suljic. ...
+    The Stranger – Jeremy Davies. ...
+    The Witch – Carole Ruggier. ...
+    Brok – Robert Craighead. ...
+    Sindri – Adam Harrington. ...
+    Mimir – Alastair Duncan.
+</p>
+<body>
+    <a href="htmlpage1.html"><h1> Next Page </h1></a>
+
+</body>
+</html>
+Second Page
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>REVIEWS</title>
+    <link rel="stylesheet" href="StyleSheet.css" />
+</head>
+<h1>
+    GOD OF WAR REVIEWS:
+</h1>
+<p>
+    Some of the best films of all time are those whose different strengths all work in concert to create a unified, engrossing whole. The Shining, The Social Network, and Jaws are all excellent examples of films made up of strong individual parts complementing each other to form a fantastic work of art. That is absolutely true of God of War – its musical score elevates story moments, which flow seamlessly into fantastic action gameplay, which facilitates exploration and puzzles that reward you with a deeper understanding of its characters and its expansive and beautiful world. God of War is a masterful composition of exceptional interlocking parts, deliberate in its design and its foreshadowing, which pays off in unexpected ways in both the gameplay and story.
+</p>
+<h2>
+    Some of the best films of all time are those whose different strengths all work in concert to create a unified, engrossing whole. The Shining, The Social Network, and Jaws are all excellent examples of films made up of strong individual parts complementing each other to form a fantastic work of art. That is absolutely true of God of War – its musical score elevates story moments, which flow seamlessly into fantastic action gameplay, which facilitates exploration and puzzles that reward you with a deeper understanding of its characters and its expansive and beautiful world. God of War is a masterful composition of exceptional interlocking parts, deliberate in its design and its foreshadowing, which pays off in unexpected ways in both the gameplay and story.
+</h2>
+<h3>
+    Some of the best films of all time are those whose different strengths all work in concert to create a unified, engrossing whole. The Shining, The Social Network, and Jaws are all excellent examples of films made up of strong individual parts complementing each other to form a fantastic work of art. That is absolutely true of God of War – its musical score elevates story moments, which flow seamlessly into fantastic action gameplay, which facilitates exploration and puzzles that reward you with a deeper understanding of its characters and its expansive and beautiful world. God of War is a masterful composition of exceptional interlocking parts, deliberate in its design and its foreshadowing, which pays off in unexpected ways in both the gameplay and story.
+</h3>
+<body>
+    <a href="htmlpage2.html"<h1>LINK</h1> </a>
+   
+
+</body>
+</html>
+Third Page
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Link to the Game</title>
+    <link rel="stylesheet" href="StyleSheet.css" />
+</head>
+<h1> LINK TO THE GAME: https://store.steampowered.com/agecheck/app/1593500/ </h1>
+<body>
+    <a href="htmlpage.html"<h1>Home</h1> </a>
+
+</body>
+</html>
+css
+}
+    
+    .menu a {
+        float: right;
+        color: white;
+        text-align: center;
+        padding: 15px 17px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+        
+        .menu a:hover {
+            background-color: antiquewhite;
+            color: black;
+        }
+        
+        .menu a.active {
+            background-color: darkcyan;
+            color: white;
+        }
+        body{
+            background-color:rosybrown;
+            text-align:center;
+        }
+        p{
+            color:black;
+        }
+        h1{
+            text-align:center;
+            color:black;
+
+        }
+        h2{
+            text-align:center;
+            color:black:
+        }
+        h3{
+            text-align:center;
+            color:black;
+        }
+    
