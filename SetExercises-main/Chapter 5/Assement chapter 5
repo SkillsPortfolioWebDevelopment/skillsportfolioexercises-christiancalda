@@ -1,0 +1,94 @@
+Embed Video
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Embed Video</title>
+</head>
+<body>
+    <center>
+    <video controls loop>
+        <source src="C:\Users\User\source\repos\Chapter%205%20Video\Chapter%205%20Video\How%20Cheap%20Is%20Egypt_!.mp4" type="video/mp4" />
+    </video>
+    </center>
+</body>
+</html>
+//Sound Board
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="StyleSheet.css" />
+</head>
+<body>
+    <audio id="ah-ha"> <source src="a-ha.mp3" /></audio>
+    <audio id="back-of-the-net>" <source src="back-of-the-net.mp3" /></audio>
+    <audio id="bang-out-of-order"><source src="bang-out-of-order.mp3" /></audio>
+    <audio id="dan"><source src="dan.mp3" /></audio>
+    <audio id="goal"><source src="goal.mp3" /></audio>
+    <audio id="hello-partridge"><source src="hello-partridge.mp3"</audio>
+    <audio id="jurassic-park"><source src="jurrasic-park.mp3"</audio>
+    <audio id="kiss-my-face2"><source src="kiss-my-face2.mp3"</audio>
+    <audio id="smell-my-cheese"><source src="smell-my-cheese.mp3"</audio>
+    <div id="buttons"></div>
+
+   
+
+    <script src="JavaScript.js" type="text/javascript"></script>
+</body>
+</html>
+css
+body {
+    background-color: hotpink;
+    font-family: 'Arial Rounded MT';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    text-align: center;
+}
+
+.btn {
+    background-color: black;
+    border-radius: 5px;
+    border: thin;
+    color: white;
+    margin: 5rem;
+    padding: 2rem 3rem;
+    font-size: medium;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+    .btn:focus {
+        outline: none;
+    }
+
+    .btn:increment {
+        opacity: 0.7;
+    }
+    script
+    const sounds = ['ah-ha', 'back-of-net', 'bang-out-of-order', 'dan', 'goal', 'hello-partridge', 'jurassic-park', 'kiss-my-face2', 'smell-my-cheese'];
+sounds.forEach((sound) => {
+    const btn = document.createElement('button');
+    btn.classList.add('btn');
+
+    btn.innerText = sound;
+    btn.addEventListener('click', () => {
+
+        stopSongs()
+
+        document.getElementById(sound).play();
+    });
+    document.getElementById('buttons').appendChild(btn);
+});
+function stopSong() {
+    sounds.forEach(sound => {
+        const song = document.getElementById(sound)
+        song.pause()
+        song.currentTime = 0;
+    })
+}
