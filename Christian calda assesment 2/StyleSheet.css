@@ -1,0 +1,11 @@
+﻿body {
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    background-color: skyblue;
+}
+
+}
+.menu a:hover{
+    color: blueviolet
+}
